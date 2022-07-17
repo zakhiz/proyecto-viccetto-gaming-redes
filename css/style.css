@@ -51,7 +51,7 @@ body{
 }
 /*estilo de las cajas */
 .card{
-    width: 60%;
+    width: 65%;
     border: 4px solid #f4845f;
     border-radius: 10px;
     margin: 20px;
@@ -66,17 +66,20 @@ body{
 
 @media screen and (min-width:425px) {
     .card{
+        width: 50%;
         padding: 0 10 0 10px ;
     }
 }
 @media screen and (min-width:768px) {
     .card{ 
-    padding: 0 20px 0 20px;
+        width: 40%;
+    padding: 5px 20px 5px 20px;
   }
 }
 @media screen and (min-width:1024px) {
     .card{
-        padding: 10px 20px 10px 20px;     
+        width: 40%;
+        padding: 5px 20px 5px 20px;     
     }
     .card:hover{
         background: #f25c54;
@@ -85,7 +88,8 @@ body{
 }
 @media screen and (min-width:1440px) {
     .card{ 
-    padding: 10px 20px 10px 20px;
+        width: 40%;
+    padding: 5px 20px 5px 20px;
   }
 }
 /*iconos complementarios estilo*/
@@ -95,22 +99,22 @@ body{
  }
  @media screen and (min-width:425px) {
     .ico{
-        left: 12px;
+        left: 15px;
     }
  }
  @media screen and (min-width:768px) {
     .ico{
-        left: 100px;
+        left: 70px;
     }
  }
  @media screen and (min-width:1024px) {
     .ico{
-        left: 170px;
+        left: 120px;
     }
  }
  @media screen and (min-width:1440px) {
     .ico{
-        left: 340px;
+        left: 200px;
     }
  }
 /*estilo de las a*/
@@ -119,7 +123,7 @@ body{
     font-size: 1.6rem;
     color: #fff;
     text-decoration: none;
-    padding: 0 60px 0 60px;
+    padding: 0 75px 0 75px;
 }
 @media screen and (min-width:425px) {
     .target{
@@ -128,17 +132,17 @@ body{
 }
 @media screen and (min-width:768px) {
     .target{
-        padding: 0 150px 0 150px;
+        padding: 0 130px 0 130px;
     }
 }
 @media screen and (min-width:1024px) {
     .target{
-        padding: 0 240px 0 240px;
+        padding: 0 180px 0 180px;
     }
 }
 @media screen and (min-width:1440px) {
     .target{
-        padding: 0 500px 0 500px;
+        padding: 0 350px 0 350px;
     }
 }
 /*pie de pagina*/

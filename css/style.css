@@ -10,32 +10,11 @@
 body{
     background: url(../img/space3.webp);
     background-size: cover;
-    background-repeat: no-repeat; 
-    height:80.9vh;
-    
-}
-@media screen and (min-width:425px) {
-    body{
-        height:80.9vh;
-    }
-}
-@media screen and (min-width:768px) {
-    body{
-        height:80.9vh;
-    }
-}
-@media screen and (min-width:1024px) {
-    body{
-        height:80.9vh;
-    }
-}
-@media screen and (min-width:1440px) {
-    body{
-        height:80.9vh;
-        width: 100%;
-    }
-}
+    background-repeat: no-repeat;
+    height: 100vh;
    
+}
+
 
 /*titulo de la pagina*/
 .titulo{
@@ -43,7 +22,7 @@ body{
     color: #f4f3ee;
     text-align: center;
     font-size: 3.6rem;
-    margin-top: 160px;
+    padding-top: 70px;
     text-shadow: 2px 2px 8px #f25c54,2px 2px 8px #f25c54;
 }
 @media screen and (min-width:425px) {
@@ -68,7 +47,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 90px;
+    padding-top: 70px;
 }
 /*estilo de las cajas */
 .card{

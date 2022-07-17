@@ -51,25 +51,27 @@ body{
 }
 /*estilo de las cajas */
 .card{
+    width: 60%;
     border: 4px solid #f4845f;
     border-radius: 10px;
     margin: 20px;
-    padding: 10px 10px 10px 10px;
     background: #f4845f;
     box-shadow: 0 2px 18px #000, 0 2px 18px #000;
     transition: all .1s;
     display: flex; 
+    justify-content: center;
     position: relative;
+    padding: 0 10px 0 10px;
 }
 
 @media screen and (min-width:425px) {
     .card{
-        padding: 10px ;
+        padding: 0 10 0 10px ;
     }
 }
 @media screen and (min-width:768px) {
     .card{ 
-    padding: 10px 20px 10px 20px;
+    padding: 0 20px 0 20px;
   }
 }
 @media screen and (min-width:1024px) {
@@ -89,26 +91,26 @@ body{
 /*iconos complementarios estilo*/
  .ico{
     position: absolute;
-    left: 20px;
+    left: 12px;
  }
  @media screen and (min-width:425px) {
     .ico{
-        left: 35px;
+        left: 12px;
     }
  }
  @media screen and (min-width:768px) {
     .ico{
-        left: 90px;
+        left: 100px;
     }
  }
  @media screen and (min-width:1024px) {
     .ico{
-        left: 200px;
+        left: 170px;
     }
  }
  @media screen and (min-width:1440px) {
     .ico{
-        left: 200px;
+        left: 340px;
     }
  }
 /*estilo de las a*/
@@ -136,7 +138,7 @@ body{
 }
 @media screen and (min-width:1440px) {
     .target{
-        padding: 0 240px 0 240px;
+        padding: 0 300px 0 300px;
     }
 }
 /*pie de pagina*/

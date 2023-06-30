@@ -9,7 +9,6 @@ Si deseas clonar el proyecto podes hacerlo con el siguiente comando
 
 ```
 $ git clone https://github.com/zakhiz/Proyect-ViccettoTwitch.git
-
 ```
 
 
